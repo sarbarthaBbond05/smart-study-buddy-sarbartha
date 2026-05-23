@@ -9,7 +9,7 @@ st.title("👩 About Vineeta")
 st.subheader("Ask me anything about my friend Vineeta!")
 
 # 2. Setup API Key Safely
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyADnqhgDHekY2IlzKzPZIR1Z4sd4bgoXpg")
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AIzaSyBdM26VQ4AiXjo5-rHshD-DUEO9vYY3kNQ")
 
 @st.cache_resource
 def get_ai_client():
